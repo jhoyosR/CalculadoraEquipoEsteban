@@ -1,5 +1,4 @@
 public class Calculadora {
-    
     // Atributos
     int firstNumber;
     int secondNumber;
@@ -13,6 +12,11 @@ public class Calculadora {
     // Método para sumar que recibe dos parámetros de tipo int
     public void sumar(int a, int b) {
         System.out.println("La suma de "+ a +" + " + b + " = " + (a+b));
+    }
+
+    // Método para restar que recibe dos parámetros de tipo int
+    public void restar(int firstNumber, int secondNumber){
+        System.out.println("La resta entre "+ firstNumber + " y " + secondNumber + " es: " + (firstNumber-secondNumber));
     }
 
     // Método para multiplicar que recibe dos parámetros de tipo int
