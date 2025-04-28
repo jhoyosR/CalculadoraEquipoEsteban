@@ -21,7 +21,7 @@ public class Main {
         // Hace una u otra operación dependiendo del contenido de la variable operation
         switch (operation) {
             case "+":
-            
+                calculadora.sumar(firstNumber, secondNumber)
                 break;
 
             case "-":
@@ -29,11 +29,11 @@ public class Main {
                 break;
 
             case "*":
-          
+                calculadora.multiplicar(firstNumber, secondNumber)
                 break;
 
             case "/":
-            
+                calculadora.dividir(firstNumber, secondNumber)
                 break;
                 
             default:
